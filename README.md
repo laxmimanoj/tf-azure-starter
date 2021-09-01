@@ -1,20 +1,20 @@
 # tf-azure-starter
-startup project to use terraform with azure
+startup project to use terraform with azure<br/>
 
-terraform init
-terraform fmt
-terraform validate
-terraform plan
-terraform apply
-terraform apply -auto-approve
-terraform destroy
-terraform show
-terraform state list
+terraform init<br/>
+terraform fmt<br/>
+terraform validate<br/>
+terraform plan<br/>
+terraform apply<br/>
+terraform apply -auto-approve<br/>
+terraform destroy<br/>
+terraform show<br/>
+terraform state list<br/>
 
-terraform apply -var "resource_group_name=manojtflearnrg"
+terraform apply -var "resource_group_name=manojtflearnrg"<br/>
 
-terraform output resource_group_id
+terraform output resource_group_id<br/>
 
-az account list
-az account set --subscription="SUBSCRIPTION_ID"
-az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/4SUBSCRIPTION_ID"
+az account list<br/>
+az account set --subscription="SUBSCRIPTION_ID"<br/>
+az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/4SUBSCRIPTION_ID"<br/>
